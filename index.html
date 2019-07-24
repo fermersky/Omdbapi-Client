@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <form name="searchMovieForm" class="searchMovieForm">
+        <div class="inputWrap">
+            <label for="searchTextbox">Title</label>
+            <input id="searchTextbox" type="text" name="searchTextbox">
+        </div>
+        <div class="inputWrap">
+            <label for="typeSelect">Type</label>
+            <select name="typeSelect" id="typeSelect">
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+                <option value="episode">Episode</option>
+            </select>
+            
+        </div>
+        <input type="submit" id="searchBtn" value="Search">
+    </form>
+
+    <div class="movie-container"></div>
+
+    <div class="movie-wrap">
+        <h2>Movie Info</h2>
+        <div class="movie-details">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_SX300.jpg" alt="">
+            <div class="movie-details-info">
+                <div class="movie-keys">
+                    <p>Title:</p>
+                    <p>Released:</p>
+                    <p>Genre:</p>
+                    <p>Country:</p>
+                    <p>Director:</p>
+                    <p>Writer:</p>
+                    <p>Actors:</p>
+                    <p>Awards:</p>
+                </div>
+                <div class="movie-values">
+                    p
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/myscript.js"></script>
+</body>
+</html>
